@@ -82,7 +82,7 @@ h1 em, .hero h1 em, .contact-page h1 em { color: var(--pink); font-style: normal
 }
 .art-yellow  {     
    background-image: /* linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  */ 
-   url('images/Zine_Typeography.pdf');        
+   url('images/Book\ Front.jpeg');        
    background-size: cover;  
      background-position: center; 
    /* color: white; */ 
