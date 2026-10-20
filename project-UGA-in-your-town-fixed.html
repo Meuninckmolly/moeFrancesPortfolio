@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UGA in Your Town | Moe Frances</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <style>
+        /* Project-specific layout only; the site's existing visual theme is preserved. */
+        .uga-case-study { --gallery-gap: clamp(1rem, 2.5vw, 2rem); }
+        .uga-case-study .detail-copy {
+            display: grid;
+            grid-template-columns: minmax(180px, .72fr) minmax(0, 1.6fr);
+            gap: clamp(1.5rem, 4vw, 4rem);
+            align-items: start;
+            margin-block: clamp(3.5rem, 7vw, 6rem);
+        }
+        .uga-case-study .detail-copy h2 { margin-top: 0; }
+        .uga-case-study .section-content { min-width: 0; }
+        .uga-case-study .section-intro { max-width: 62ch; margin: 0 0 1.5rem; }
+        .uga-case-study .image-gallery {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: var(--gallery-gap);
+            align-items: start;
+            margin-top: 2rem;
+        }
+        .uga-case-study .image-gallery.gallery-single { grid-template-columns: minmax(0, 1fr); }
+        .uga-case-study .image-gallery.gallery-three { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+        .uga-case-study .gallery-item { min-width: 0; margin: 0; }
+        .uga-case-study .gallery-item img {
+            display: block;
+            width: 100%;
+            height: auto;
+            max-height: 680px;
+            object-fit: contain;
+            object-position: center;
+            margin-inline: auto;
+        }
+        .uga-case-study .gallery-item figcaption {
+            padding-top: .75rem;
+            max-width: 48ch;
+            font-size: .92rem;
+            line-height: 1.55;
+            opacity: .88;
+        }
+        .uga-case-study .gallery-item figcaption strong {
+            display: block;
+            margin-bottom: .2rem;
+            font-weight: 600;
+            opacity: 1;
+        }
+        .uga-case-study .project-detail-hero .detail-art { min-height: 300px; }
+        @media (max-width: 700px) {
+            .uga-case-study .detail-copy { grid-template-columns: 1fr; gap: 1rem; }
+            .uga-case-study .image-gallery,
+            .uga-case-study .image-gallery.gallery-three { grid-template-columns: 1fr; }
+            .uga-case-study .gallery-item img { max-height: none; }
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <a class="wordmark" href="index.html">moe frances<span>®</span></a>
+        <button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+        <nav id="primary-nav" class="nav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main class="section-wrap inner-page uga-case-study">
+        <p class="eyebrow"><a href="index.html">← All projects</a> &nbsp; / &nbsp; Project 09</p>
+
+        <section class="project-detail-hero">
+            <div>
+                <p class="eyebrow">Traveling Exhibition · Campaign Design</p>
+                <h1>UGA Athletics in<br>Your <em>Town.</em></h1>
+                <p class="lead">A collection of print and digital design assets supporting the University of Georgia's summer traveling exhibition.</p>
+                <dl class="project-details">
+                    <div><dt>Project</dt><dd>UGA in Your Town</dd></div>
+                    <div><dt>Deliverables</dt><dd>Signage, bifold advertising, social media, and website assets</dd></div>
+                    <div><dt>Focus</dt><dd>Exhibition promotion and visual communication</dd></div>
+                </dl>
+            </div>
+            <div class="detail-art art-blue3" aria-hidden="true"></div>
+        </section>
+
+        <section class="detail-copy">
+            <h2>Overview<span class="pink">.</span></h2>
+            <div class="section-content">
+                <p class="section-intro">The Hargrett Library needed a coordinated set of print and digital graphics to promote its “UGA Athletics in Your Town” traveling exhibition. The project brought the exhibition's identity into multiple formats, from promotional materials to graphics experienced in person.</p>
+            </div>
+        </section>
+
+        <section class="detail-copy">
+            <h2>Early<br>Exploration<span class="pink">.</span></h2>
+            <div class="section-content">
+                <p class="section-intro">I began by exploring ideas on paper before moving into digital design. Sketching gave me room to test compositions and visual directions, then identify concepts that could be developed into a consistent campaign.</p>
+                <div class="image-gallery gallery-single">
+                    <figure class="gallery-item">
+                        <img src="images/IMG_2315.JPG" alt="Photograph of early design sketches for the UGA in Your Town project" loading="lazy">
+                        <figcaption><strong>Sketchbook studies</strong>Early concepts helped establish possible layouts and visual directions before the designs were refined digitally.</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <section class="detail-copy">
+            <h2>Social Media<br>Graphics<span class="pink">.</span></h2>
+            <div class="section-content">
+                <p class="section-intro">The campaign extended into social media, adapting the project's visual language for different digital placements. Each graphic needed to communicate clearly on its own while still feeling like part of the same exhibition campaign.</p>
+                <div class="image-gallery gallery-three">
+                    <figure class="gallery-item">
+                        <img src="images/insta1.jpg" alt="Instagram promotional graphic for UGA in Your Town" loading="lazy">
+                        <figcaption><strong>Instagram graphic</strong>A social-first composition designed to introduce the exhibition to audiences online.</figcaption>
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="images/Instagram2.jpg" alt="Alternate Instagram graphic for UGA in Your Town" loading="lazy">
+                        <figcaption><strong>Alternate Instagram layout</strong>A second format explores how the campaign's identity carries across another social post.</figcaption>
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="images/Facebook.jpg" alt="Facebook promotional graphic for UGA in Your Town" loading="lazy">
+                        <figcaption><strong>Facebook graphic</strong>The design system was adapted for a different platform while keeping the campaign recognizable.</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <section class="detail-copy">
+            <h2>Print &amp; Exhibition<br>Materials<span class="pink">.</span></h2>
+            <div class="section-content">
+                <p class="section-intro">The project also included physical exhibition materials. These pieces bring the campaign into the exhibition environment, where clear hierarchy and legible information help visitors navigate and engage with the content.</p>
+                <div class="image-gallery gallery-three">
+                    <figure class="gallery-item">
+                        <img src="images/IMG_9779.jpeg" alt="Exhibition material from UGA in Your Town" loading="lazy">
+                        <figcaption><strong>Exhibition material</strong>A view of the printed materials developed for the traveling exhibition.</figcaption>
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="images/IMG_9830.jpeg" alt="Additional printed exhibition material from UGA in Your Town" loading="lazy">
+                        <figcaption><strong>Information in context</strong>The exhibition graphics carry the project's visual language into the physical experience.</figcaption>
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="images/IMG_9831.jpeg" alt="Detail of UGA in Your Town exhibition graphics" loading="lazy">
+                        <figcaption><strong>Graphic details</strong>A closer look at the printed elements and their role within the exhibition.</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <section class="detail-copy">
+            <h2>Exhibition<br>Photos<span class="pink">.</span></h2>
+            <div class="section-content">
+                <p class="section-intro">Photographs of the installed exhibition show how the graphics function beyond the screen or page. Seeing the materials together highlights the importance of consistency across formats and within the visitor experience.</p>
+                <div class="image-gallery">
+                    <figure class="gallery-item">
+                        <img src="images/exhibiit2.jpeg" alt="Photograph of the installed UGA in Your Town exhibition" loading="lazy">
+                        <figcaption><strong>Installed exhibition</strong>The finished materials come together as part of the in-person exhibition.</figcaption>
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="images/exhibit3.jpeg" alt="Another view of the UGA in Your Town exhibition installation" loading="lazy">
+                        <figcaption><strong>Exhibition in context</strong>A second view documents how the graphics sit within the larger display.</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <section class="detail-copy">
+            <h2>Conclusion<span class="pink">.</span></h2>
+            <div class="section-content">
+                <p>This project gave me experience creating a connected set of visual materials for a traveling exhibition across print and digital platforms. It reinforced the importance of adapting a design system to different formats while keeping the overall campaign cohesive and easy to recognize.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <a class="wordmark" href="index.html">moe frances<span>®</span></a>
+        <p>colors, fun, yay.</p>
+        <a href="contact.html" class="text-link">Say hello ↗</a>
+    </footer>
+</body>
+</html>
